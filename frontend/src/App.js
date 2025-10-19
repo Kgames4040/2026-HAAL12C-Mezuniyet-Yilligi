@@ -169,7 +169,7 @@ function App() {
               data-testid="login-button"
             >
               <LogIn className="w-4 h-4 mr-2" />
-              Login
+              Giriş Yap
             </Button>
           )}
         </div>
