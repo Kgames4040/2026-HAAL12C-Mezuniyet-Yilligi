@@ -130,7 +130,7 @@ function App() {
         <div className="splash-content">
           <div className="splash-image-box">
             <img 
-              src="https://picsum.photos/seed/yearbook/300/300" 
+              src="https://i.imgur.com/Cgiyggw.jpeg" 
               alt="Yearbook"
             />
           </div>
