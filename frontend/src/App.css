@@ -10,7 +10,6 @@ body {
   font-family: 'Inter', sans-serif;
   background: linear-gradient(135deg, #f5f7fa 0%, #e4e9f2 100%);
   min-height: 100vh;
-  overflow-x: hidden;
 }
 
 /* Splash Screen */
@@ -207,7 +206,6 @@ body {
   max-height: 90vh;
   padding: 0;
   overflow: hidden;
-  position: relative;
 }
 
 .close-button {
@@ -324,7 +322,6 @@ body {
   background: white;
   padding: 2rem;
   overflow-y: auto;
-  min-height: 100%;
 }
 
 .comments-title {
@@ -340,7 +337,6 @@ body {
   flex: 1;
   overflow-y: auto;
   margin-bottom: 1.5rem;
-  max-height: 50vh;
 }
 
 .no-comments {
@@ -384,14 +380,12 @@ body {
 .comment-input-section {
   border-top: 2px solid #e9ecef;
   padding-top: 1.5rem;
-  background: white;
 }
 
 .comment-textarea {
   margin-bottom: 1rem;
   min-height: 100px;
   resize: vertical;
-  width: 100%;
 }
 
 .comment-submit-btn {
@@ -427,40 +421,25 @@ body {
   .app-header {
     padding: 1rem;
   }
-
+  
   .app-title {
     font-size: 1.3rem;
   }
-
+  
   .splash-text {
     font-size: 1.8rem;
   }
-
+  
   .splash-image-box {
     width: 150px;
     height: 150px;
   }
-
+  
   .modal-content {
     grid-template-columns: 1fr;
-    height: auto;
-    overflow-y: auto;
   }
-
-  .photo-section {
-    max-height: 50vh;
-  }
-
+  
   .comments-section {
     max-height: 50vh;
-    overflow-y: auto;
-  }
-
-  .comment-textarea {
-    min-height: 80px;
-  }
-
-  .carousel-image {
-    max-height: 40vh;
   }
 }
