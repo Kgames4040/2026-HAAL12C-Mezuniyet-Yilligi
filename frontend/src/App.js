@@ -202,7 +202,7 @@ function App() {
           <h2 className="login-title">Lütfen Giriş Kodunuzu Girin</h2>
           <Input 
             type="text"
-            placeholder="Enter your code"
+            placeholder="Kodunuzu Buraya Girin"
             value={loginCode}
             onChange={(e) => setLoginCode(e.target.value)}
             onKeyPress={(e) => e.key === 'Enter' && handleLogin()}
