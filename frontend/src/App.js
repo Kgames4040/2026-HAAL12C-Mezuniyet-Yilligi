@@ -134,8 +134,8 @@ function App() {
               alt="Yearbook"
             />
           </div>
-          <h1 className="splash-text">Senior Year Memories</h1>
-          <p className="splash-subtitle">A Year to Remember</p>
+          <h1 className="splash-text">2026 HAAL 12C</h1>
+          <p className="splash-subtitle">MEZUNİYET YILLIĞI</p>
         </div>
       </div>
     );
@@ -145,7 +145,7 @@ function App() {
     <div className="app-container" data-testid="main-app">
       {/* Header */}
       <header className="app-header">
-        <h1 className="app-title">Senior Year Memories</h1>
+        <h1 className="app-title">2026 HAAL 12C</h1>
         <div className="header-actions">
           {user ? (
             <div className="user-info">
