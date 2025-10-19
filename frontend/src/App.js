@@ -275,7 +275,7 @@ function App() {
                 
                 <div className="comments-list" data-testid="comments-list">
                   {comments.length === 0 ? (
-                    <p className="no-comments">No comments yet. Be the first!</p>
+                    <p className="no-comments">Bu şahsiyete Henüz yorum yazılmadı</p>
                   ) : (
                     comments.map((comment, index) => (
                       <div key={index} className="comment-item" data-testid={`comment-${index}`}>
