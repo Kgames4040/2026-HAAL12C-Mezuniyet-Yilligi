@@ -63,7 +63,7 @@ function App() {
 
   const handleLogout = () => {
     setUser(null);
-    toast.success("Logged out successfully");
+    toast.success("Mekandan Ayrıldınız");
   };
 
   const openFriendModal = (friend) => {
