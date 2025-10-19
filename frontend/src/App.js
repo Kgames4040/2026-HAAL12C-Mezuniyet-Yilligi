@@ -199,7 +199,7 @@ function App() {
       {/* Login Dialog */}
       <Dialog open={showLogin} onOpenChange={setShowLogin}>
         <DialogContent className="login-dialog" data-testid="login-dialog">
-          <h2 className="login-title">Enter Access Code</h2>
+          <h2 className="login-title">Lütfen Giriş Kodunuzu Girin</h2>
           <Input 
             type="text"
             placeholder="Enter your code"
