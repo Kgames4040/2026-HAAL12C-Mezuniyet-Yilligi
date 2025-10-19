@@ -52,12 +52,12 @@ function App() {
         setUser(response.data.username);
         setShowLogin(false);
         setLoginCode("");
-        toast.success(`Welcome, ${response.data.username}!`);
+        toast.success(`Mekana Giriş Yaptınız, ${response.data.username}!`);
       } else {
         toast.error(response.data.message);
       }
     } catch (error) {
-      toast.error("Login failed");
+      toast.error("Hata Oluştu");
     }
   };
 
